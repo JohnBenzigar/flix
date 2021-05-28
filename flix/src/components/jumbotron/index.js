@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'; /* eslint-disable react/prop-types */
 import { Container, Inner , Pane , Image , SubTitle , Item , Title } from './styles/jumbotron';
 
 
 export default function Jumbotron ({ children,direction= 'row', ...restProps}) {
     return (
         <Item {...restProps}>
-        <Inner direction={direction}>
+        <Inner direction={direction} { ...restProps}>
            {children}
         </Inner>
         </Item>
@@ -13,7 +13,7 @@ export default function Jumbotron ({ children,direction= 'row', ...restProps}) {
     )
 }
 
-Jumbotron.Container = function JumbotronContainer({ children , ...restProps}) {
+Jumbotron.Container =  function JumbotronContainer({ children , ...restProps}) {
 
     return <Container {...restProps}> {children} </Container>;
 }
