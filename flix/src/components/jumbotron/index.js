@@ -1,4 +1,5 @@
-import React from 'react'; /* eslint-disable react/prop-types */
+/* eslint-disable react/prop-types */
+import React from 'react'; 
 import { Container, Inner , Pane , Image , SubTitle , Item , Title } from './styles/jumbotron';
 
 
