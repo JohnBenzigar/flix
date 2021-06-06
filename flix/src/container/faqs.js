@@ -1,5 +1,5 @@
 import React from 'react';
-import {Accordion, OptForm} from '../components';
+import {Accordion, OptForm, Feature} from '../components';
 import faqsData from '../fixtures/faq.json';
 
 export function FaqsContainer() {

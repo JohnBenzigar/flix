@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, {useState, createContext, useContext}  from 'react' 
 import { Container, Frame, Title, Item, Inner, Header, Body} from './styles/accordion';
 

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import {Link as ReactRouterLink} from 'react-router-dom';
 import { Background, Container, Logo, ButtonLink } from './styles/header';
@@ -26,7 +25,7 @@ Header.Logo = function HeaderLogo({children, ...restProps}){
 
 }
 
-Header.ButtonLink = function HeaderButtonLink({childer, ...restProps}){
+Header.ButtonLink = function HeaderButtonLink({children, ...restProps}){
 
     return <ButtonLink {...restProps}>{children}</ButtonLink>;
 

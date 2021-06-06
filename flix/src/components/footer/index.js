@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React from 'react'; 
 import { Row, Title, Column, Container, Link, Text, Break } from '../footer/styles/footer';
 
